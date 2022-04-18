@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Montserrat";
-}
+
 
 section {
     min-height: 100vh;
@@ -14,16 +12,18 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
 }
 
 .container {
     max-width: 400px;
     width: 90%;
     padding: 20px;
-    box-shadow: 0px 0px 20px #00000020;
+    box-shadow: 0px 0px 20px #bf181820;
     border-radius: 8px;
     background-color: white;
+}
+p{
+    color: red;
 }
 
 .step {
@@ -41,7 +41,7 @@ section {
 
 .form-group input {
     width: 100%;
-    border: 1.5px solid rgba(128, 128, 128, 0.418);
+    border: 1.5px solid rgba(33, 10, 10, 0.418);
     padding: 5px;
     font-size: 18px;
     margin-top: 5px;
@@ -49,7 +49,7 @@ section {
 }
 
 button.next-btn,
-button.pre-btn,
+button.previous-btn,
 button.sub-btn {
     float: right;
     margin-top: 20px;
@@ -63,10 +63,25 @@ button.sub-btn {
     /* text-align: right; */
 }
 
-button.pre-btn {
+button.previous-btn {
     float: left;
 }
 
 button.sub-btn {
     background-color: aquamarine;
+}
+label{
+    font-weight: bold;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 182%;
+}
+#Vstate,#graduation{
+    height: 30px;
+}
+input[type=radio]
+{
+    width: 10%;
+    padding: 5px;
 }
