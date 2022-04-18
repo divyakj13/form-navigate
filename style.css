@@ -85,3 +85,7 @@ input[type=radio]
     width: 10%;
     padding: 5px;
 }
+
+h1{
+    text-align: center;
+}
